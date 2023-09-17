@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import traverseImg from "@/public/traverse.png";
-import reactFinanceImg from "@/public/react-finance.jpg";
-import wikiRocketImg from "@/public/nextjs-wikirocket.png";
+import traverseImg from "@/public/traverse.webp";
+import reactFinanceImg from "@/public/react-finance.webp";
+import wikiRocketImg from "@/public/nextjs-wikirocket.webp";
 
 export const links = [
   {

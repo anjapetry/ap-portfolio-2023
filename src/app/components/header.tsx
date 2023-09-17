@@ -24,7 +24,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
             >
               <Link
-              className='flex w-full items-center justify-center px-3 py-3 hover:text-orange-500 hover:font-bold transition-colors duration-300 ease-in-out'
+              className='flex w-full items-center justify-center px-3 py-3 hover:text-orange-400 hover:font-bold transition-colors duration-300 ease-in-out'
               href={link.hash}
               >
                 {link.name}
