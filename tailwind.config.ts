@@ -8,22 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
-				accent: {
-					1: 'hsl(var(--color-accent1) / <alpha-value>)', // <alpha-value> is replaced with the opacity value in the color class
-					2: 'hsl(var(--color-accent2) / <alpha-value>)',
-				},
-				bg: 'hsl(var(--color-bg) / <alpha-value>)',
-				content: 'hsl(var(--color-content) / <alpha-value>)',
-			},
+        accent: {
+          1: "hsl(var(--color-accent1) / <alpha-value>)",
+          2: "hsl(var(--color-accent2) / <alpha-value>)",
+        },
+        bkg: "hsl(var(--color-bkg) / <alpha-value>)",
+        content: "hsl(var(--color-content) / <alpha-value>)",
+      },
       animation: {
-				'spin-slower': 'spin 35s ease infinite', // 35s is the default value
-				'spin-slow': 'spin 25s ease-in-out infinite reverse', // 25s is the default value
+        "spin-slower": "spin 35s ease infinite",
+        "spin-slow": "spin 25s ease-in-out infinite reverse",
       },
     },
   },

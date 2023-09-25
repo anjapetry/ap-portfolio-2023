@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Kiel, Schleswig-Holstein",
+    title: "Front-End Developer",
+    location: "Hamburg Area, Schleswig-Holstein",
     description:
-      "I graduated after 7 months of studying. I immediately continued to deepen and expand my new skills as a front-end developer.",
+      "I am currently skilling up to the full stack. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 -2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title:  "Frontend Developer Program Graduate at Opencampus.sh",
+    location: " Kiel, Schleswig-Holstein",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also skilled up to the full stack.",
+      "After graduating from the Frontend Developer Program in August 2022, I continued to deepen and expand my new skills as a front-end developer.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Language Teacher (German and English as Second Language) at Institut Neo",
+    location: "Geneva, Switzerland",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I taught German and English as a second language to children and adults.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2013 - 2021",
   },
 ] as const;
 
@@ -65,14 +65,14 @@ export const projectsData = [
     title: "Traverse",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "Tailwind"],
+    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
     imageUrl: traverseImg,
   },
   {
     title: "Finance Landing Page",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "Next.js", "Tailwind", "Framer Motion"],
+    tags: ["React", "Next.js", "Tailwind"],
     imageUrl: reactFinanceImg,
   },
   {
@@ -93,15 +93,17 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "TailwindCSS",
+  "Bootstrap",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
   "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-    "Figma",
+  "GitHub",
+  "Jest",
+  "AWS",
+  "Figma",
   "Framer Motion",
+  "Three.js",
 ] as const;

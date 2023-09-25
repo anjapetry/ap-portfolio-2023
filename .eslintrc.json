@@ -1,6 +1,6 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "no-unescaped-entities": 0
+    "no-unescaped-entities": "off"
   }
 }
