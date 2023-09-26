@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Hamburg Area, Schleswig-Holstein",
     description:
       "I am currently skilling up to the full stack. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(LuGraduationCap),
+      icon: React.createElement(FaReact),
     date: "2021 -2023",
   },
   {
@@ -47,15 +47,16 @@ export const experiencesData = [
     location: " Kiel, Schleswig-Holstein",
     description:
       "After graduating from the Frontend Developer Program in August 2022, I continued to deepen and expand my new skills as a front-end developer.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      icon: React.createElement(LuGraduationCap),
+
+    date: "2021 - 2022",
   },
   {
     title: "Language Teacher (German and English as Second Language) at Institut Neo",
     location: "Geneva, Switzerland",
     description:
       "I taught German and English as a second language to children and adults.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2013 - 2021",
   },
 ] as const;

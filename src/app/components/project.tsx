@@ -39,7 +39,7 @@ const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
                 {tags.map((tag: string, index: number) => (
                     <li
-                    className="bg-accent-2/[0.7] text-stone-900 group-hover:bg-accent-1 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+                    className="bg-accent-2/[0.7] text-white group-hover:bg-accent-1 px-3 py-1 text-[0.7rem] uppercase tracking-wider rounded-full"
                     key={index}>
                         {tag}
                     </li>
