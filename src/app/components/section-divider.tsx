@@ -21,7 +21,7 @@ export default function SectionDivider() {
         repeat: Infinity,
         repeatType: "loop",
       }}
-      className='w-3 h-3 rounded-full bg-teal-400 mb-1'
+      className='w-3 h-3 rounded-full border-teal-500 mb-1 border bg-cyan-400'
     >
     </motion.div>
     </div>
