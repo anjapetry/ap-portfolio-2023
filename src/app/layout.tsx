@@ -1,11 +1,10 @@
-import  Header from "./components/header";
-import ActiveSectionContextProvider from "./context/active-section-context";
+import Header from "./components/header";
 import './globals.css';
+import { GeistSans } from 'geist/font'
+import ActiveSectionContextProvider from "./context/active-section-context";
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 
-
-const inter = Inter({ subsets: ['latin'] })
+const geistSans = GeistSans;
 
 export const metadata: Metadata = {
   title: 'Anja Petry | Frontend Developer',
@@ -19,13 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!smooth-scroll">
-      <body className={`${inter.className} bg-bkg text-content relative h-[5000px] pt-28 sm:pt-36 mx-auto overflow-auto`}>
-      <div className="grid relative overflow-hidden before:absolute before:h-1/2 before:w-3/4 before:rounded-tr-full before:rounded-bl-full before:blur-3xl before:bg-accent-2 before:animate-spin-slower before:-z-10 after:absolute after:h-2/3 after:w-2/3 after:rounded-tr-full after:rounded-bl-full after:blur-3xl after:bg-accent-1/80 after:animate-spin-slow after:-z-10">
+      <body className={`${geistSans.className} bg-bkg text-content relative pt-28 sm:pt-36 mx-auto h-[5000px] overflow-auto`}>
+      <div className="sm:bg-accent-2 bg-accent-2 absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[41.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="bg-accent-1/80 absolute top-[-11rem] -z-10 left-[-25rem] h-[31.25rem] w-[60rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+      <div className="bg-accent-1/80 absolute bottom-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[51.25rem] rounded-xl blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="bg-accent-2 absolute bottom-[-10rem] -z-10 left-[-25rem] h-[31.25rem] w-[50rem] rounded-xl blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
       <ActiveSectionContextProvider>
       <Header />
         {children}
       </ActiveSectionContextProvider>
-      </div>
       </body>
     </html>
   );
